@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
-import "diceScreen.dart";
+//import "diceScreen.dart";
+import "dashboardscreen.dart";
 void main() {
   runApp(const MyWidget());
 }
@@ -10,7 +11,8 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Dicescreen(),
+     // home: Dicescreen(),
+      home:Dashboardscreen()
     );
   }
 }
